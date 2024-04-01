@@ -1,0 +1,12 @@
+server.port: 9090
+
+spring.datasource.url: jdbc:postgresql://localhost/fujintao
+spring.datasource.username: postgres
+spring.datasource.password: fujintao
+spring.datasource.driver.class: org.postgresql.Driver
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include=health:
